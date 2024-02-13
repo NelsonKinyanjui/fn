@@ -1,12 +1,10 @@
-function lessNumber(a,b){
-    
-
-    if (a < b){
-        return a;
+function pow(x, n) {
+    let result = x;
+  
+    for (let i = 1; i < n; i++) {
+      result *= x;
     }
-    else {
-        return b;
-    }
-
-}
-console.log(lessNumber());
+  
+    return result;
+  }
+console.log (pow (3,5));
